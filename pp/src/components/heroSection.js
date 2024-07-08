@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <div className="relative h-screen flex flex-col md:flex-row items-center">
       {/* Navbar */}
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* Slideshow on the left 2/3 of the screen for larger screens, full width for smaller screens */}
       <div className="w-full md:w-2/3 h-2/3 md:h-full relative">

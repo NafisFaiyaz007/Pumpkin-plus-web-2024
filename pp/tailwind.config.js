@@ -11,6 +11,10 @@ module.exports = {
           500: "#FF7F3E",
           600: "#EB5E0B",
         },
+        mywhite: {
+          100: "#FCFFE7",
+          200: "#AAAAAA",
+        },
       },
       fontFamily: {
         wittgenstein: ["Wittgenstein", "sans-serif"],

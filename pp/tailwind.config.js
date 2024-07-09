@@ -12,8 +12,8 @@ module.exports = {
           600: "#EB5E0B",
         },
         mywhite: {
-          100: "#FCFFE7",
-          200: "#AAAAAA",
+          100: "#F6F5F2",
+          200: "#F0F0E4",
         },
       },
       fontFamily: {

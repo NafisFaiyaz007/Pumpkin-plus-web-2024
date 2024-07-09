@@ -1,7 +1,7 @@
 // src/components/sections/HeroSection.js
 
 import React from "react";
-import Navbar from "../components/navbar";
+// import Navbar from "../components/navbar";
 import Slideshow from "../components/slideshow"; // Adjust path as necessary
 import image1 from "../images/1.jpg"; // Adjust the path and extension as necessary
 import image2 from "../images/2.jpg"; // Adjust the path and extension as necessary
@@ -28,12 +28,12 @@ const HeroSection = () => {
             Innovating solutions to feed the world while preserving our planet's
             resources.
           </p>
-          <a
+          {/* <a
             href="#about"
             className="bg-mywhite-100 text-black hover:bg-orange-700 rounded-lg md-4 hover:text-white border-2 border-myorange-600 font-bold py-3 px-6 inline-block transition duration-300"
           >
             Learn More
-          </a>
+          </a> */}
           <button className="bg-myorange-500 hover:bg-orange-700 rounded-lg mt-4 border-2 border-orange-200 text-white font-bold py-3 px-6 inline-block transition duration-300">
             Donate
           </button>
@@ -41,7 +41,7 @@ const HeroSection = () => {
       </div>
 
       {/* Typography on the right 1/3 of the screen for larger screens, full width for smaller screens */}
-      <div className="hidden md:flex w-full md:w-1/3 h-1/3 md:h-full flex-col justify-center bg-gradient-to-br from-gray-100 to-gray-300 p-8 text-gray-900">
+      <div className="hidden md:flex w-full md:w-1/3 h-1/3 md:h-full flex-col justify-center bg-gradient-to-br to-slate-200 from-slate-50 p-8 text-gray-900">
         <div className="relative z-10 text-center md:text-left">
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-wittgenstein leading-tight mb-4">
             Transforming Agriculture for a Sustainable Future
@@ -50,12 +50,12 @@ const HeroSection = () => {
             Innovating solutions to feed the world while preserving our planet's
             resources.
           </p>
-          <a
+          {/* <a
             href="#about"
             className="bg-mywhite-100 text-black hover:bg-orange-700 rounded-lg mr-4 hover:text-white border-2 border-myorange-600 font-bold py-3 px-6 inline-block transition duration-300"
           >
             Learn More
-          </a>
+          </a> */}
           <button className="bg-myorange-500 hover:bg-orange-700 rounded-lg ml-4 border-2 border-orange-200 text-white font-bold py-3 px-6 inline-block transition duration-300">
             Donate
           </button>

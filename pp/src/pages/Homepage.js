@@ -4,6 +4,7 @@ import React from "react";
 import HeroSection from "../components/heroSection";
 import AboutSection from "../components/aboutSection";
 import ServicesSection from "../components/serviceSection";
+import InnovatorSection from "../components/innovatorSection";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <ServicesSection />
 
       <AboutSection />
+      <InnovatorSection/>
       {/* Other sections or components for your homepage */}
     </div>
   );

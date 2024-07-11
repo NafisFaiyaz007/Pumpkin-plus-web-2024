@@ -8,6 +8,7 @@ import {
   faBalanceScale,
   faBook,
 } from "@fortawesome/free-solid-svg-icons";
+
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -28,38 +29,38 @@ const services = [
   },
   {
     id: 3,
-    title: "International Collaboration and Networking",
+    title: "International Partnership & Networking",
     description:
-      "Facilitating global partnerships to share knowledge and innovate for a better agricultural future.",
+      "Facilitating global and local partnerships to share knowledge and innovate for a better agricultural future",
     icon: faGlobe,
   },
   {
     id: 4,
     title: "R&D for Climate-Smart Agricultural Innovations",
     description:
-      "Conducting research to develop cutting-edge technologies and practices for climate-resilient agriculture.",
+      "Conducting research to develop cutting-edge technologies and practices for climate-resilient agriculture",
     icon: faFlask,
   },
   {
     id: 5,
-    title: "Policy Advocacy and Influencing",
+    title: "Policy Advocacy, Influence",
     description:
-      "Developing policy and collaborating with National and International organizations for sustainable Development ",
+      "Developing policy and collaborating with National and International organizations for sustainable Development",
     icon: faBalanceScale,
   },
   {
     id: 6,
-    title: "Knowledge Management",
+    title: "Integrated Agribusiness model for women and youth",
     description:
-      "For the use of barren and unproductive common pool resources management",
+      "Initiated integrated agri-business development through capacity building and demonstration for youth employment",
     icon: faBook,
   },
 ];
 
 const ServicesSection = () => {
   const { ref, inView } = useInView({
-    triggerOnce: false, // Trigger animation only once
-    threshold: 0.8, // Trigger when 50% of the section is in view
+    triggerOnce: false,
+    threshold: 0.3,
   });
 
   return (
@@ -72,7 +73,7 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <motion.div
               key={service.id}
-              className="flex flex-col items-center shadow-lg rounded-lg overflow-hidden bg-white p-6"
+              className="shadow-lg rounded-lg overflow-hidden bg-white p-6 flex flex-col items-center justify-between h-full"
               initial={{ opacity: 0, y: 40 }}
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
               transition={{

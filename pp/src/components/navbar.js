@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-4 font-semibold items-center">
           <a
             href="#donate"
-            className="bg-orange-500 hover:bg-orange-700 text-gray-100 font-bold py-2 px-4 rounded transition duration-300"
+            className="bg-orange-500 hover:bg-orange-700 text-gray-100 border-2 border-mywhite-100 hover:border-orange-700 font-bold py-2 px-4 rounded transition duration-300"
           >
             Donate
           </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
             </Link>
             <span className="h-6 border-r border-gray-300"></span>
             <Link
-              to="../pages/About.js"
+              to="/About"
               className={`hover:text-orange-500 ${
                 isScrolled ? "text-gray-800" : "text-gray-100"
               }`}

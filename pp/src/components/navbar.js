@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-4 font-bold items-center">
           <a
             href="#donate"
-            className="bg-myorange-500 hover:bg-orange-700 text-gray-100 font-bold py-2 px-4 rounded transition duration-300"
+            className="bg-myorange-600 hover:bg-orange-700 text-gray-100 font-bold py-2 px-4 rounded transition duration-300"
           >
             Donate
           </a>
@@ -125,7 +125,7 @@ const Navbar = () => {
           <span className="w-6 border-b border-gray-300"></span>
           <a
             href="#donate"
-            className="bg-orange-500 hover:bg-orange-700 text-gray-100 font-bold py-2 px-4 rounded transition duration-300"
+            className="bg-myorange-600 hover:bg-orange-700 text-gray-100 font-bold py-2 px-4 rounded transition duration-300"
             onClick={toggleMenu}
           >
             Donate Now

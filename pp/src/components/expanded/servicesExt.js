@@ -1,16 +1,34 @@
-// src/pages/About.js
 import React from "react";
+import { motion } from "framer-motion";
 import image1 from "../../images/1.jpg"; // Adjust path as necessary
 
 const Services = () => {
+  const sectionVariants = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0 },
+  };
+
+  const sectionTransition = {
+    duration: 0.8,
+    type: "spring",
+    stiffness: 50,
+  };
+
   return (
-    <div className=" md:px-20 mywhite-100 min-h-screen bg-gradient-to-b from-mywhite-500 via-gray-200 to-gray-300">
-      <div className="container mx-auto py-24 px-6">
+    <div className="md:px-20 mywhite-100 min-h-screen bg-gradient-to-b from-mywhite-500 via-gray-200 to-gray-300">
+      <div className="container mx-auto py-24">
         <h1 className="text-4xl md:text-5xl sm:mt-16 mt-20 font-bebas text-myorange-600 mb-12 text-center">
           Our Services
         </h1>
 
-        <section className="mb-16 flex flex-col md:flex-row shadow-xl items-center">
+        <motion.section
+          className="mb-16 flex flex-col md:flex-row shadow-xl items-center"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={sectionVariants}
+          transition={sectionTransition}
+        >
           <div className="md:w-1/2 p-6">
             <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
               Develop and Promote Agri Business System
@@ -33,9 +51,16 @@ const Services = () => {
               className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
             />
           </div>
-        </section>
+        </motion.section>
 
-        <section className="mb-16 flex flex-col md:flex-row-reverse shadow-xl items-center">
+        <motion.section
+          className="mb-16 flex flex-col md:flex-row-reverse shadow-xl items-center"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={sectionVariants}
+          transition={sectionTransition}
+        >
           <div className="md:w-1/2 p-6">
             <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
               Consultancy & Advisory Services
@@ -66,9 +91,16 @@ const Services = () => {
               className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
             />
           </div>
-        </section>
+        </motion.section>
 
-        <section className="mb-16 flex flex-col md:flex-row shadow-xl items-center">
+        <motion.section
+          className="mb-16 flex flex-col md:flex-row shadow-xl items-center"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={sectionVariants}
+          transition={sectionTransition}
+        >
           <div className="md:w-1/2 p-6">
             <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
               International Collaboration and Networking
@@ -94,9 +126,16 @@ const Services = () => {
               className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
             />
           </div>
-        </section>
+        </motion.section>
 
-        <section className="mb-16 flex flex-col md:flex-row-reverse shadow-xl items-center">
+        <motion.section
+          className="mb-16 flex flex-col md:flex-row-reverse shadow-xl items-center"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={sectionVariants}
+          transition={sectionTransition}
+        >
           <div className="md:w-1/2 p-6">
             <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
               R&D for Climate Smart Agricultural Innovations
@@ -123,7 +162,7 @@ const Services = () => {
               className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
             />
           </div>
-        </section>
+        </motion.section>
       </div>
     </div>
   );

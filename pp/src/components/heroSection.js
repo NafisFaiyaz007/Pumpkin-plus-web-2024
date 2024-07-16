@@ -15,7 +15,7 @@ const HeroSection = () => {
         <Slideshow images={images} />
         {/* Overlay for mobile screens */}
         <div className="absolute inset-0 bg-black opacity-60 md:hidden"></div>
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white p-6 md:hidden">
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-gray-100 p-6 md:hidden">
           {/* <div className="mb-8">
             <img
               src={companyLogo}
@@ -23,21 +23,21 @@ const HeroSection = () => {
               className="w-20 md:hidden"
             />
           </div> */}
-          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bebas leading-tight mb-4">
+          <h1 className="text-4xl md:text-4xl lg:text-6xl font-bebas leading-tight mb-4">
             Transforming Agriculture for a Sustainable Future
           </h1>
           <p className="text-xl md:text-2xl lg:text-xl mb-8">
             Innovating solutions to feed the world while preserving our planet's
             resources.
           </p>
-          <button className="bg-myorange-500 hover:bg-orange-700 rounded-lg mt-4 border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300">
+          <button className="bg-myorange-500 hover:bg-orange-700 rounded-lg mt-4 text-gray-100 font-bold py-3 px-6 inline-block transition duration-300">
             Donate
           </button>
         </div>
       </div>
 
       {/* Typography */}
-      <div className="hidden md:flex w-full md:w-1/3 h-screen flex-col justify-center bg-gradient-to-br to-slate-200 from-slate-50 p-8 text-gray-900 relative">
+      <div className="hidden md:flex w-full md:w-1/3 h-screen flex-col justify-center bg-gradient-to-b to-mywhite-200 from-mywhite-500 p-8 text-gray-900 relative">
         {/* Company Logo (visible on all screens) */}
         {/* <div className="absolute top-4 mt-8 left-1/2 transform -translate-x-1/2 text-center">
           <img
@@ -54,7 +54,7 @@ const HeroSection = () => {
             Innovating solutions to feed the world while preserving our planet's
             resources.
           </p>
-          <button className="bg-myorange-600 hover:bg-orange-700 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300">
+          <button className="bg-myorange-600 items-center hover:bg-orange-700 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300">
             Donate
           </button>
         </div>

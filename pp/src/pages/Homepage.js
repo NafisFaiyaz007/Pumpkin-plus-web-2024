@@ -8,6 +8,7 @@ import InnovatorSection from "../components/innovatorSection";
 // import AwardSection from "../components/awardSection";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import Partners from "../components/partnerSection";
 
 const Home = () => {
   return (
@@ -17,7 +18,9 @@ const Home = () => {
       <ServicesSection />
       <AboutSection />
       <InnovatorSection/>
+      <Partners/>
       <Footer/>
+
       {/* <AwardSection/> */}
       {/* Other sections or components for your homepage */}
     </div>

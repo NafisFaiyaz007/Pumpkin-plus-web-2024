@@ -8,19 +8,19 @@ import image3 from "../../images/banner.jpg"; // Adjust path as necessary
 
 const AboutExt = () => {
   return (
-    <section className="bg-gradient-to-br font-wittgenstein from-mywhite-100 to-mywhite-200 py-12 px-10 md:px-16 lg:px-30 mt-16">
+    <section className="bg-gradient-to-br font-wittgenstein from-mywhite-100 to-mywhite-200 py-12 px-10 md:px-16 lg:px-30 mt-20">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="container mx-auto"
       >
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 text-center mb-8">
-          What do we do
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bebas text-myorange-600 text-center mb-8">
+          Pumpkin Plus
         </h1>
 
         <div className="bg-white p-8 rounded-lg shadow-lg mb-12">
-          <p className="text-lg font-open-sans text-justify text-gray-800 mb-6 leading-relaxed">
+          <p className="text-lg font-redHat text-justify text-gray-800 mb-6 leading-relaxed">
             PUMPKIN PLUS is a new generation agribusiness company originated by
             the innovator of “Sandbar Cropping”, Mr. Nazmul Chowdhury. The
             company aims to transform agriculture through private-public
@@ -28,13 +28,13 @@ const AboutExt = () => {
             dissemination, benefiting resource-poor communities striving for
             food security and livelihoods.
           </p>
-          <p className="text-lg font-open-sans text-justify text-gray-800 mb-6 leading-relaxed">
+          <p className="text-lg font-redHat text-justify text-gray-800 mb-6 leading-relaxed">
             Over a decade ago, the journey began with the vision of implementing
             E.F. Schumacher’s principles of "Small is Beautiful" and "Helping
             them help themselves." Pumpkin Plus embodies these ideals through
             practical actions, impacting millions globally.
           </p>
-          <p className="text-lg font-open-sans text-justify text-gray-800 mb-6 leading-relaxed">
+          <p className="text-lg font-redHat text-justify text-gray-800 mb-6 leading-relaxed">
             Our mission is to foster sustainable agricultural practices that not
             only ensure food security but also preserve the environment for
             future generations. Through continuous innovation and collaboration,
@@ -85,7 +85,7 @@ const AboutExt = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-                Vision
+                Develop and Promote of Agri business system:
               </h3>
               <p className="text-lg text-gray-800 mb-4 leading-relaxed flex-grow">
                 At Pumpkin Plus, our vision is to create a world where
@@ -136,6 +136,8 @@ const AboutExt = () => {
         </motion.div>
       </motion.div>
     </section>
+
+    
   );
 };
 

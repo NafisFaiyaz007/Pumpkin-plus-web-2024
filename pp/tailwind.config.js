@@ -17,10 +17,15 @@ module.exports = {
           300: "#CCD3CA",
           400: "#727272",
         },
+        theme1: {
+          100: "#FBF3D5",
+        },
       },
       fontFamily: {
-        wittgenstein: ["Wittgenstein", "sans-serif"],
+        "wittgenstein": ["Wittgenstein", "sans-serif"],
         "open-sans": ["Open Sans", "sans-serif"],
+        "redHat": ["Red Hat Display","sans-serif"],
+        "bebas":["Bebas Neue","sans-serif"]
         // Add more custom font families as needed
       },
     },

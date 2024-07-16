@@ -19,11 +19,11 @@ const InnovatorSection = () => {
             alt="Innovator"
             className="w-48 h-48 rounded-full object-cover shadow-2xl mb-4"
           />
-          <h3 className="text-2xl md:text-3xl font-wittgenstein text-gray-900 mb-4 text-center">
+          <h3 className="text-2xl md:text-3xl font-redHat text-gray-900 mb-4 text-center">
             <strong>"A Small dream is now a Big dream"</strong>
           </h3>
         </div>
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row font-open-sans items-center md:justify-between space-y-8 md:space-y-0 md:space-x-12">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row font-redHat items-center md:justify-between space-y-8 md:space-y-0 md:space-x-12">
           <div className="md:w-1/2 mb-12 md:mb-0 flex flex-col items-center md:items-start">
             <motion.div
               className="flex flex-col items-center rounded-lg overflow-hidden bg-mywhite-100 p-6"

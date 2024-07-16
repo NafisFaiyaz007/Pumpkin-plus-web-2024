@@ -9,7 +9,7 @@ import companyLogo from "../images/logo.png"; // Adjust the path to your logo im
 
 const Footer = () => {
   return (
-    <section className="relative py-16 px-8 md:px-20 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 text-white font-open-sans">
+    <section className="relative py-16 px-8 md:px-20 bg-gradient-to-b from-myorange-500 via-myorange-600 to-orange-700 text-white font-open-sans">
       {/* Blur overlay */}
       <div className="absolute inset-0 bg-black opacity-30 blur-md"></div>
 
@@ -32,7 +32,7 @@ const Footer = () => {
             <p className="mb-6">Email: pumpkinplus17@gmail.com</p>
             <a
               href="/"
-              className="bg-white text-myorange-500 hover:bg-myorange-600 hover:text-white rounded-lg border-2 border-white font-bold py-2 px-6 inline-block mb-6 transition duration-300"
+              className="bg-white text-myorange-500 hover:bg-myorange-400 hover:text-white rounded-lg border-2 border-white font-bold py-2 px-6 inline-block mb-6 transition duration-300"
             >
               Donate Now
             </a>
@@ -75,7 +75,7 @@ const Footer = () => {
 
           {/* Right side: Contact form */}
           <div>
-            <h2 className="text-2xl font-bold mb-6">Contact Us</h2>
+            <h2 className="text-2xl font-redHat mb-6">Contact Us</h2>
             <form className="space-y-6">
               <div>
                 <label
@@ -121,7 +121,7 @@ const Footer = () => {
               </div>
               <button
                 type="submit"
-                className="bg-white text-myorange-500 hover:bg-gray-200 rounded-lg border-2 border-white font-bold py-2 px-6 transition duration-300"
+                className="bg-white text-myorange-500 hover:bg-gray-200 rounded-lg border-2 border-white font-redHat py-2 px-6 transition duration-300"
               >
                 Send Message
               </button>

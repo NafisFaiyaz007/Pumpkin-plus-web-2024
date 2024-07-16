@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
+
 
 const AboutSection = () => {
   const { ref, inView } = useInView({
@@ -35,13 +37,13 @@ const AboutSection = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.9, delay: 0.2 }}
           >
-            <h1 className="text-3xl md:text-5xl font-wittgenstein text-gray-900 md:mb-6 md:mt-6">
-              About Us
+            <h1 className="text-3xl md:text-5xl font-bebas text-myorange-600 md:mb-6 md:mt-6">
+              Who is PUMPKIN PLUS?
             </h1>
-            <h4 className="text-xl md:text-2xl font-wittgenstein text-gray-900 mb-4 md:mb-6">
-              Transforming lands, Transforming Lives
+            <h4 className="text-xl md:text-2xl font-redHat text-gray-900 mb-4 md:mb-6">
+              A Field Innovation Lab For Riverbed Farming System
             </h4>
-            <p className="text-base md:text-lg font-open-sans text-justify text-gray-800 mb-4 md:mb-6 leading-relaxed">
+            <p className="text-base md:text-lg font-redHat text-justify text-gray-800 mb-4 md:mb-6 leading-relaxed">
               PUMPKIN PLUS is a new generation agribusiness company originated
               by the innovator of “Sandbar Cropping”, Mr. Nazmul Chowdhury. The
               company aims to transform agriculture through private-public
@@ -49,12 +51,19 @@ const AboutSection = () => {
               dissemination, benefiting resource-poor communities striving for
               food security and livelihoods.
             </p>
-            <p className="text-base md:text-lg font-open-sans text-justify text-gray-800 mb-4 md:mb-6 leading-relaxed">
+            <p className="text-base md:text-lg font-redHat text-justify text-gray-800 mb-4 md:mb-6 leading-relaxed">
               Over a decade ago, the journey began with the vision of
               implementing E.F. Schumacher’s principles of "Small is Beautiful"
               and "Helping them help themselves." Pumpkin Plus embodies these
               ideals through practical actions, impacting millions globally.
             </p>
+            <div className="flex justify-center">
+              <Link to="/about">
+                <button className="bg-mywhite-200 border-2 border-myorange-600 hover:bg-myorange-600 text-gray-900 hover:text-gray-100 font-medium mb-3 py-2 px-4 rounded-lg">
+                  Know more
+                </button>
+              </Link>
+            </div>
           </motion.div>
           {/* Right side: YouTube video */}
           <motion.div

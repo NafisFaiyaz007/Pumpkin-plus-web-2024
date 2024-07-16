@@ -23,7 +23,7 @@ const HeroSection = () => {
               className="w-20 md:hidden"
             />
           </div> */}
-          <h1 className="text-3xl md:text-4xl lg:text-6xl font-wittgenstein leading-tight mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bebas leading-tight mb-4">
             Transforming Agriculture for a Sustainable Future
           </h1>
           <p className="text-xl md:text-2xl lg:text-xl mb-8">
@@ -47,14 +47,14 @@ const HeroSection = () => {
           />
         </div> */}
         <div className="relative z-10 text-center md:text-left mt-16 md:mt-0">
-          <h1 className="text-3xl md:text-4xl lg:text-6xl font-wittgenstein leading-tight mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bebas text-gray-800 leading-tight mb-4">
             Transforming Agriculture for a Sustainable Future
           </h1>
           <p className="text-xl md:text-2xl lg:text-xl mb-8">
             Innovating solutions to feed the world while preserving our planet's
             resources.
           </p>
-          <button className="bg-myorange-500 hover:bg-orange-700 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300">
+          <button className="bg-myorange-600 hover:bg-orange-700 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300">
             Donate
           </button>
         </div>

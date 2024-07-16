@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 body{
-    @apply font-open-sans;
+    @apply font-redHat;
 }

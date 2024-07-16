@@ -11,6 +11,7 @@ import {
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -66,10 +67,10 @@ const ServicesSection = () => {
   return (
     <section className="py-12 px-4 md:px-16 bg-mywhite-100" ref={ref}>
       <div className="container mx-auto">
-        <h2 className="text-4xl md:text-5xl font-wittgenstein text-center mb-12 text-gray-900">
+        <h2 className="text-4xl md:text-5xl font-bebas text-center mb-12 text-myorange-600">
           Our Services
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           {services.map((service, index) => (
             <motion.div
               key={service.id}
@@ -97,6 +98,13 @@ const ServicesSection = () => {
               </p>
             </motion.div>
           ))}
+        </div>
+        <div className="flex justify-center">
+          <Link to="/services">
+            <button className="bg-mywhite-200 border-2 border-myorange-600 hover:bg-myorange-600 text-gray-900 hover:text-gray-100 font-medium py-2 px-4 rounded-lg">
+              Learn more
+            </button>
+          </Link>
         </div>
       </div>
     </section>

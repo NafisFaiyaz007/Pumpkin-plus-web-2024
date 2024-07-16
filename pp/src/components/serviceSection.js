@@ -65,7 +65,7 @@ const ServicesSection = () => {
   });
 
   return (
-    <section className="py-12 px-4 md:px-16 bg-mywhite-100" ref={ref}>
+    <section className="py-12 px-4 md:px-16 bg-mywhite-500" ref={ref}>
       <div className="container mx-auto">
         <h2 className="text-4xl md:text-5xl font-bebas text-center mb-12 text-myorange-600">
           Our Services

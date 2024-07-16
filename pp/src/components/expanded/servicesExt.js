@@ -4,13 +4,13 @@ import image1 from "../../images/1.jpg"; // Adjust path as necessary
 
 const Services = () => {
   return (
-    <div className=" md:px-20 mywhite-100 min-h-screen bg-gray-200">
+    <div className=" md:px-20 mywhite-100 min-h-screen bg-gradient-to-b from-mywhite-500 via-gray-200 to-gray-300">
       <div className="container mx-auto py-24 px-6">
-        <h1 className="text-4xl md:text-5xl sm:mt-16 mt-20 font-wittgenstein text-gray-900 mb-12 text-center">
+        <h1 className="text-4xl md:text-5xl sm:mt-16 mt-20 font-bebas text-myorange-600 mb-12 text-center">
           Our Services
         </h1>
 
-        <section className="mb-16 flex flex-col md:flex-row shadow-2xl items-center">
+        <section className="mb-16 flex flex-col md:flex-row shadow-xl items-center">
           <div className="md:w-1/2 p-6">
             <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
               Develop and Promote Agri Business System
@@ -35,7 +35,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section className="mb-16 flex flex-col md:flex-row-reverse shadow-2xl items-center">
+        <section className="mb-16 flex flex-col md:flex-row-reverse shadow-xl items-center">
           <div className="md:w-1/2 p-6">
             <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
               Consultancy & Advisory Services
@@ -68,7 +68,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section className="mb-16 flex flex-col md:flex-row shadow-2xl items-center">
+        <section className="mb-16 flex flex-col md:flex-row shadow-xl items-center">
           <div className="md:w-1/2 p-6">
             <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
               International Collaboration and Networking
@@ -96,7 +96,7 @@ const Services = () => {
           </div>
         </section>
 
-        <section className="mb-16 flex flex-col md:flex-row-reverse shadow-2xl items-center">
+        <section className="mb-16 flex flex-col md:flex-row-reverse shadow-xl items-center">
           <div className="md:w-1/2 p-6">
             <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
               R&D for Climate Smart Agricultural Innovations

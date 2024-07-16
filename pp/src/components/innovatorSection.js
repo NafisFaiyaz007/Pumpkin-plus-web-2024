@@ -11,7 +11,7 @@ const InnovatorSection = () => {
   });
 
   return (
-    <section className="py-12 px-4 md:px-6 bg-mywhite-100" ref={ref}>
+    <section className="py-12 px-4 md:px-6 bg-mywhite-500" ref={ref}>
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <img

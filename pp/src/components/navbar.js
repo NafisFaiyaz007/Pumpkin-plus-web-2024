@@ -38,7 +38,7 @@ const Navbar = () => {
       className={`fixed w-full top-0 left-0 z-50 transition duration-300 ${
         isScrolled
           ? "bg-mywhite-100 shadow-md text-gray-800"
-          : "bg-gradient-to-b from-gray-800 from-bg-opacity-100 bg-opacity-50 to-transparent text-slate-200"
+          : "bg-gradient-to-b from-gray-800 from-bg-opacity-100 bg-opacity-50 to-transparent text-mywhite-200"
       }`}
     >
       <div className="container max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">

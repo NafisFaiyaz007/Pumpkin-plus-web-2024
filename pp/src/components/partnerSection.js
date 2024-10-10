@@ -1,5 +1,5 @@
 import React from "react";
-import partner1 from "../images/logo.png"; // Adjust the paths as necessary
+import partner1 from "../images/usaid-logo.png"; // Adjust the paths as necessary
 import partner2 from "../images/logo.png";
 import partner3 from "../images/logo.png";
 // Add more imports as needed

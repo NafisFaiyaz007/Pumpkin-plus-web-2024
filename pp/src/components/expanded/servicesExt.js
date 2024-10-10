@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import image1 from "../../images/1.jpg"; // Adjust path as necessary
+import image1 from "../../images/about1.jpg"; // Adjust path as necessary
+import agribusiness from "../../images/agribusiness.jpg";
 
 const Services = () => {
   const sectionVariants = {
@@ -15,7 +16,7 @@ const Services = () => {
   };
 
   return (
-    <div className="md:px-20 mywhite-100 min-h-screen bg-gradient-to-b from-mywhite-500 via-gray-200 to-gray-300">
+    <div className="md:px-20 mywhite-100 min-h-screen bg-mywhite-200 ">
       <div className="container mx-auto py-24">
         <h1 className="text-4xl md:text-5xl sm:mt-16 mt-20 font-bebas text-myorange-600 mb-12 text-center">
           Our Services
@@ -46,7 +47,9 @@ const Services = () => {
           </div>
           <div className="md:w-1/2 p-6">
             <img
-              src={image1}
+        
+        
+              src={agribusiness}
               alt="Community Development"
               className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
             />

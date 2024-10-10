@@ -20,7 +20,7 @@ const Footer = () => {
             <img
               src={companyLogo}
               alt="Company Logo"
-              className="w-24 h-24 mx-auto md:mx-0 mb-6"
+              className="w-24 h-auto mx-auto md:mx-0 mb-6"
             />
             <h2 className="text-2xl font-bold mb-6">Address</h2>
             <p className="mb-3">House- 201, Road- 1, Block-K, Basundhara R/A</p>

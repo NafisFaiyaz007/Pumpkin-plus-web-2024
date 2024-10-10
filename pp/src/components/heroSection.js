@@ -1,12 +1,18 @@
 import React from "react";
 import Slideshow from "../components/slideshow";
-import image1 from "../images/1.jpg";
-import image2 from "../images/2.jpg";
-import image3 from "../images/banner.jpg";
+
+import banner1 from "../images/banner1.jpg";
+import banner2 from "../images/banner2.jpg";
+import banner3 from "../images/banner3.jpg";
+import banner4 from "../images/banner4.jpg";
+import banner5 from "../images/banner5.jpg";
+import banner6 from "../images/banner6.jpg";
+import banner7 from "../images/banner7.jpg";
+import banner8 from "../images/banner8.jpg";
 // import companyLogo from "../images/logo.png"; // Replace with your actual company logo path
 
 const HeroSection = () => {
-  const images = [image1, image2, image3];
+  const images = [banner1,banner2,banner3,banner4,banner5,banner6,banner7,banner8];
 
   return (
     <div className="relative h-screen flex flex-col md:flex-row items-center">

@@ -36,9 +36,9 @@ const HeroSection = () => {
             Innovating solutions to feed the world while preserving our planet's
             resources.
           </p>
-          <button className="bg-myorange-500 hover:bg-orange-700 rounded-lg mt-4 text-gray-100 font-bold py-3 px-6 inline-block transition duration-300">
+          {/* <button className="bg-myorange-500 hover:bg-orange-700 rounded-lg mt-4 text-gray-100 font-bold py-3 px-6 inline-block transition duration-300">
             Donate
-          </button>
+          </button> */}
         </div>
       </div>
 
@@ -60,9 +60,9 @@ const HeroSection = () => {
             Innovating solutions to feed the world while preserving our planet's
             resources.
           </p>
-          <button className="bg-myorange-600 items-center hover:bg-orange-700 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300">
+          {/* <button className="bg-myorange-600 items-center hover:bg-orange-700 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300">
             Donate
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

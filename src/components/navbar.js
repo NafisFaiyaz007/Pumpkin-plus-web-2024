@@ -43,12 +43,12 @@ const Navbar = () => {
     >
       <div className="container max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="hidden md:flex space-x-4 font-bold items-center">
-          <a
+          {/* <a
             href="#donate"
             className="bg-myorange-600 hover:bg-orange-700 text-gray-100 font-bold py-2 px-4 rounded transition duration-300"
           >
             Donate
-          </a>
+          </a> */}
           <div className="flex items-center space-x-4">
             <Link to="/" className={getLinkClass("/")}>
               Home
@@ -62,7 +62,7 @@ const Navbar = () => {
               Services
             </Link>
             <span className="h-6 border-r border-gray-300"></span>
-            <Link to="#contact" className={getLinkClass("#contact")}>
+            {/* <Link to="#contact" className={getLinkClass("#contact")}>
               Contact
             </Link>
             <span className="h-6 border-r border-gray-300"></span>
@@ -72,7 +72,7 @@ const Navbar = () => {
             <span className="h-6 border-r border-gray-300"></span>
             <Link to="#collaborate" className={getLinkClass("#collaborate")}>
               Work with us
-            </Link>
+            </Link> */}
           </div>
         </div>
         <img
@@ -115,7 +115,7 @@ const Navbar = () => {
             Services
           </Link>
           <span className="w-6 border-b border-gray-300"></span>
-          <Link
+          {/* <Link
             to="#contact"
             className={getLinkClass("#contact")}
             onClick={toggleMenu}
@@ -129,7 +129,7 @@ const Navbar = () => {
             onClick={toggleMenu}
           >
             Donate Now
-          </a>
+          </a> */}
         </div>
       )}
     </nav>

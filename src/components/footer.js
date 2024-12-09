@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
 
           {/* Right side: Contact form */}
-          <div>
+          {/* <div>
             <h2 className="text-2xl font-redHat mb-6">Contact Us</h2>
             <form className="space-y-6">
               <div>
@@ -126,7 +126,7 @@ const Footer = () => {
                 Send Message
               </button>
             </form>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>

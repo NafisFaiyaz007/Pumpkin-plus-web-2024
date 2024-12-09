@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import image1 from "../../images/about1.jpg"; // Adjust path as necessary
 import agribusiness from "../../images/agribusiness.jpg";
-
+import consultancy from "../../images/consultancy and advisory .jpg";
+import innovations from "../../images/R&D innovations.jpg";
+import networking from "../../images/networking.jpeg"
 const Services = () => {
   const sectionVariants = {
     hidden: { opacity: 0, y: 40 },
@@ -89,7 +90,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2 p-6">
             <img
-              src={image1}
+              src={consultancy}
               alt="Collaboration"
               className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
             />
@@ -124,7 +125,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2 p-6">
             <img
-              src={image1}
+              src={networking}
               alt="International Collaboration"
               className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
             />
@@ -160,7 +161,7 @@ const Services = () => {
           </div>
           <div className="md:w-1/2 p-6">
             <img
-              src={image1}
+              src={innovations}
               alt="Climate Smart Innovations"
               className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
             />

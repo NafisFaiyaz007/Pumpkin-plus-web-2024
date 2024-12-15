@@ -44,18 +44,26 @@ const AboutSection = () => {
               A Field Innovation Lab For Riverbed Farming System
             </h4>
             <p className="text-base md:text-lg font-redHat text-justify text-gray-800 mb-4 md:mb-6 leading-relaxed">
-              PUMPKIN PLUS is a new generation agribusiness company originated
-              by the innovator of “Sandbar Cropping”, Mr. Nazmul Chowdhury. The
-              company aims to transform agriculture through private-public
-              partnerships, R&D, community-led markets, and knowledge
-              dissemination, benefiting resource-poor communities striving for
-              food security and livelihoods.
+              PUMPKIN PLUS is a new generation agribusiness company has
+              originated by the innovator of “Sandbar Cropping”. Over a decade
+              ago, the journey began with the vision of implementing E.F.
+              Schumacher’s principles of "Small is Beautiful" and "Helping them
+              help themselves." Pumpkin Plus embodies these ideals through
+              practical actions, impacting millions globally.
             </p>
             <p className="text-base md:text-lg font-redHat text-justify text-gray-800 mb-4 md:mb-6 leading-relaxed">
-              Over a decade ago, the journey began with the vision of
-              implementing E.F. Schumacher’s principles of "Small is Beautiful"
-              and "Helping them help themselves." Pumpkin Plus embodies these
-              ideals through practical actions, impacting millions globally.
+              The company has evolved by Mr. Nazmul Chowdhury, with his
+              visionary ideas to transform agriculture from a Charity-Based
+              Approach to a Producer Led Commercial and Water Efficient
+              Agribusiness Model by encouraging and engaging private public
+              partnership. Simultaneously, conduct R&D for new innovation, crops
+              diversification, and updating knowledge on farming system, develop
+              Village Based Market System and Knowledge Generation Hub for
+              others for wider replications and greater benefits of the extreme
+              poor communities, who are struggling for survival and combating
+              causes like food insecurity & hunger, malnourishment,
+              unemployment, gender inequality and environmental disasters,
+              shocks and hazards as a chronic matter.
             </p>
             <div className="flex justify-center">
               <Link to="/about">

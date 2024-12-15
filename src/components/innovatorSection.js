@@ -59,16 +59,15 @@ const InnovatorSection = () => {
             <iframe
               width="100%"
               height="250"
-              src="https://www.youtube.com/embed/6xnLLTunAaM?si=e911ipfWDKyCWcoV"
+              src="https://www.youtube.com/embed/lLXHMwuJuM8?si=e9PXhA6L2dSz-rjU"
               title="YouTube video player"
-              frameBorder="0"
+              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-              className="w-full h-48 md:h-64 object-cover mb-4"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
             ></iframe>
             <p className="text-sm md:text-base font-bold text-gray-700 text-center">
-              Documentary by Bangladesh National Television
+              Interview for St.Andrews Awards
             </p>
 
             <iframe
@@ -89,7 +88,7 @@ const InnovatorSection = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <motion.div
-            className="flex flex-col items-center rounded-lg overflow-hidden p-4 shadow-xl transform transition-transform hover:scale-105"
+            className="flex flex-col items-center  overflow-hidden shadow-xl transform transition-transform hover:scale-105"
             initial={{ opacity: 0, y: 40 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -102,7 +101,7 @@ const InnovatorSection = () => {
           </motion.div>
 
           <motion.div
-            className="flex flex-col items-center rounded-lg overflow-hidden p-4 shadow-xl transform transition-transform hover:scale-105"
+            className="flex flex-col items-center  overflow-hidden shadow-xl transform transition-transform hover:scale-105"
             initial={{ opacity: 0, y: 40 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -115,7 +114,7 @@ const InnovatorSection = () => {
           </motion.div>
 
           <motion.div
-            className="flex flex-col items-center rounded-lg overflow-hidden p-4 shadow-xl transform transition-transform hover:scale-105"
+            className="flex flex-col items-center  overflow-hidden shadow-xl transform transition-transform hover:scale-105"
             initial={{ opacity: 0, y: 40 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
             transition={{ duration: 0.6, delay: 0.6 }}

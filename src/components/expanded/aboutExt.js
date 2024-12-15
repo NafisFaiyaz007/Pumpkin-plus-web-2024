@@ -60,7 +60,7 @@ const AboutExt = () => {
                 both the local and global scales.
               </p>
             </div>
-            <div >
+            <div>
               {/* <img
                 src={about1}
                 alt="About Us"
@@ -81,8 +81,7 @@ const AboutExt = () => {
                 alt="About Us"
                 className="w-full h-48 object-cover rounded-xl shadow-md"
               /> */}
-              <Slideshow images={images}/>
-            
+              <Slideshow images={images} />
             </div>
           </div>
 
@@ -101,10 +100,11 @@ const AboutExt = () => {
                   Vision
                 </h3>
                 <p className="text-lg text-gray-800 mb-4 leading-relaxed flex-grow">
-                  At Pumpkin Plus, our vision is to create a world where
-                  sustainable agriculture is the norm and food security is a
-                  reality for everyone. We strive to be leaders in agricultural
-                  innovation, setting benchmarks for others to follow.
+                  Transforming traditional agriculture into a women- and
+                  youth-led agribusiness model through climate-smart innovations
+                  for managing transitional lands (sandbars and riverbeds) to
+                  support erosion-affected communities in Bangladesh, fostering
+                  self-resilience.
                 </p>
                 <img
                   src={vision}

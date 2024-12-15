@@ -9,17 +9,19 @@ import InnovatorSection from "../components/innovatorSection";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Partners from "../components/partnerSection";
+import PublicationsAndAchievements from "../components/pulicationAndAchievement";
 
 const Home = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <HeroSection />
       <ServicesSection />
       <AboutSection />
-      <InnovatorSection/>
-      <Partners/>
-      <Footer/>
+      <InnovatorSection />
+      <PublicationsAndAchievements/>
+      <Partners />
+      <Footer />
 
       {/* <AwardSection/> */}
       {/* Other sections or components for your homepage */}

@@ -22,11 +22,11 @@ const PublicationsAndAchievements = () => {
           {achievements.map((ach, index) => (
             <div
               key={index}
-              className="bg-mywhite-500 p-5 rounded-lg shadow-lg hover:shadow-lg transition"
+              className="bg-mywhite-200 p-2 rounded-lg shadow-lg hover:shadow-lg transition"
             >
               {/* Card Content */}
               <img
-                src={ach.image}
+                src={ach.img}
                 alt={ach.title}
                 className="w-full h-48 object-cover rounded-md mb-4"
               />

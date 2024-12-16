@@ -1,3 +1,7 @@
+import foodplanetprize from "../images/food planet prize.jpg"
+import stAndrewsPrize from "../images/standrews prize.jpg";
+import faoAwardCeremony from "../images/FAO award.png";
+import stevieAwards from "../images/asia stevie award.jpg";
 const data = {
   publications: [
     {
@@ -73,31 +77,32 @@ const data = {
     },
   ],
   achievements: [
-    {
-      title: "Food Planet Prize 2024 Finalist",
-      link: "https://foodplanetprize.org/initiatives/pumpkin-plus-making-the-sandbars-bloom/",
-      description:
-        "Pumpkin Plus was recognized as a finalist for the prestigious Food Planet Prize.",
-    },
-    {
-      title: "St. Andrews Prize for the Environment",
-      link: "https://www.youtube.com/watch?v=4cE6QizSWo8",
-      description:
-        "A recognition of innovative environmental solutions by the St. Andrews Prize.",
-    },
-    {
-      title: "FAO Award Ceremony 2019",
-      link: "https://www.youtube.com/watch?v=3erhkjUyz_E",
-      description:
-        "Celebrating recognition from the FAO for impactful agricultural innovations.",
-    },
-    {
-      title: "Most Innovative Startup of the Year - Asia Stevie Awards",
-      link: "https://www.asia.stevieawards.com/node/1233",
-      description:
-        "Pumpkin Plus Agro Innovation Limited was awarded for groundbreaking work in agriculture.",
-    },
-  ],
+  { 
+    img: foodplanetprize, // Replace with the actual import of the image
+    title: "Food Planet Prize 2024 Finalist",
+    link: "https://foodplanetprize.org/initiatives/pumpkin-plus-making-the-sandbars-bloom/",
+    description: "Pumpkin Plus was recognized as a finalist for the prestigious Food Planet Prize.",
+  },
+  {
+    img: stAndrewsPrize, // Replace with the actual import of the image
+    title: "St. Andrews Prize for the Environment",
+    link: "https://www.youtube.com/watch?v=4cE6QizSWo8",
+    description: "A recognition of innovative environmental solutions by the St. Andrews Prize.",
+  },
+  {
+    img: faoAwardCeremony, // Replace with the actual import of the image
+    title: "FAO Award Ceremony 2019",
+    link: "https://www.youtube.com/watch?v=3erhkjUyz_E",
+    description: "Celebrating recognition from the FAO for impactful agricultural innovations.",
+  },
+  {
+    img: stevieAwards, // Replace with the actual import of the image
+    title: "Most Innovative Startup of the Year - Asia Stevie Awards",
+    link: "https://www.asia.stevieawards.com/node/1233",
+    description: "Pumpkin Plus Agro Innovation Limited was awarded for groundbreaking work in agriculture.",
+  },
+],
+
   documentaries: [
     {
       title: "Dealing with the Delta: Hope for Millions",

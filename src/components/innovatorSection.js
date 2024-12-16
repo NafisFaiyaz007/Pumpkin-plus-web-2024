@@ -5,7 +5,11 @@ import image1 from "../images/NAZMUL 1.jpg";
 import innovator1 from "../images/innovator 1.jpg";
 import innovator2 from "../images/Innovator 2.jpg";
 import innovator3 from "../images/innovator 3.jpg";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
 const InnovatorSection = () => {
   const { ref, inView } = useInView({
     triggerOnce: false,
@@ -38,16 +42,70 @@ const InnovatorSection = () => {
               </p>
             </div>
             <p className="text-base md:text-lg text-gray-700 mb-8 text-justify">
-              The company has targeted to engage with over 200,000 highly
-              vulnerable river erosion affected displaced communities living in
-              unauthorized public places on the flood protection embankments in
-              35 (out of 64) erosion prone riverine districts in Bangladesh.
-              Simultaneously, the company will extend its technical advisory
-              supports through partnerships with any interested donors and
-              organizations to at least one million char dwellers living in
-              permanently settled charlands in the mighty river system in
-              North-West and South-West part of the country.
+              Transforming lands, transforming lives: The innovation comprises
+              the demonstration and widespread adoption in NW Bangladesh of
+              ‘sandbar cropping’, an innovative, simple, cost-effective
+              technology which transforms silted barren lands created by
+              flooding and, as a result, helps thousands of displaced,
+              extreme-poor families surviving on the edge of mighty rivers to
+              escape from extreme poverty & hunger; climate change and recently
+              Covid19 pandemic generated shocks.
             </p>
+            <h3 className="">History of evolution of the innovation:</h3>
+            <p className="text-base md:text-lg text-gray-700 mb-8 text-justify">
+              Over a decade ago, the noble journey has been initiated with the
+              objective “Something is better than nothing”, fuelled by the idea
+              of E.F. Schumacher, in developing and promoting appropriate
+              technology to reach a greater segment of the underprivileged
+              population of the world, with the vision he published an article
+              in The Observer, on August 29, 1965 titled “How to help them help
+              themselves.” The thought leader contemplated: “The western world
+              spends hundreds of millions of pounds on aid to developing
+              countries. But what if this aid, so far from reducing misery, is
+              actually increasing it?” In 2005, the flagship project
+              Disappearing Lands Project led by the innovator, has connected the
+              dots between the land slipping from underneath impoverished flood
+              and erosion affected communities, and the bleak living conditions
+              of their people. The idea has been tested in October 2005,
+              (immediate after its conceptual birth in December 24, 2004 at
+              Nilhkuti Embankment, in Gaibandha District). The initial trial had
+              run only with 177 landless farmers in 2005 and has ended with
+              22131 in 2016
+            </p>
+
+            <div className="flex justify-center md:justify-start space-x-6">
+              <a
+                href="https://www.linkedin.com/in/a-z-m-nazmul-islam-chowdhury-3346073a/?originalSubdomain=bd"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  size="2x"
+                  className="hover:text-myorange-600 transition duration-300"
+                />
+              </a>
+
+              <a
+                href="https://www.facebook.com/nazmul.chowdhury.509"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  size="2x"
+                  className="hover:text-myorange-600 transition duration-300"
+                />
+              </a>
+              <a
+                href="https://independent.academia.edu/NazmulIslamChowdhury"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bebas text-lg hover:text-myorange-600 transition duration-300"
+              >
+                ACADEMIA
+              </a>
+            </div>
           </motion.div>
 
           <motion.div

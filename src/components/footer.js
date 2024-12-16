@@ -38,14 +38,14 @@ const Footer = () => {
             </a>
             <div className="flex justify-center md:justify-start space-x-6">
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/company/pumpkin-plus"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   size="2x"
-                  className="hover:text-gray-300 transition duration-300"
+                  className="hover:text-blue-900 transition duration-300"
                 />
               </a>
               <a
@@ -56,18 +56,18 @@ const Footer = () => {
                 <FontAwesomeIcon
                   icon={faYoutube}
                   size="2x"
-                  className="hover:text-gray-300 transition duration-300"
+                  className="hover:text-blue-900 transition duration-300"
                 />
               </a>
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/p/Pumpkin-Plus-An-Agribusiness-Company-100034819944694/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon
                   icon={faFacebook}
                   size="2x"
-                  className="hover:text-gray-300 transition duration-300"
+                  className="hover:text-blue-900 transition duration-300"
                 />
               </a>
             </div>
@@ -133,7 +133,7 @@ const Footer = () => {
       {/* Footer Note */}
       <div className="text-center text-sm text-gray-300 mt-12">
         <p>
-          Site created, developed, and maintained by{" "}
+          Site developed, and maintained by{" "}
           <a
             href="https://nafisfaiyaz007.github.io/Nafis-Faiyaz-portfolio/"
             className="text-white hover:text-myorange-400 transition duration-300"

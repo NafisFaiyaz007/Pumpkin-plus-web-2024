@@ -53,7 +53,7 @@ const HeroSection = () => {
           />
         </div> */}
         <div className="relative z-10 text-center md:text-left mt-16 md:mt-0">
-          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bebas text-gray-800 leading-tight mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bebas text-myorange-600 leading-tight mb-4">
             Transforming Agriculture for a Sustainable Future
           </h1>
           <p className="text-xl md:text-2xl lg:text-xl mb-8">

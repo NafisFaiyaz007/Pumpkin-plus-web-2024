@@ -17,14 +17,14 @@ const Services = () => {
   };
 
   return (
-    <div className="md:px-20 mywhite-100 min-h-screen bg-mywhite-200 ">
+    <div className="md:px-20 mywhite-100 min-h-screen bg-mywhite-500 ">
       <div className="container mx-auto py-24">
         <h1 className="text-4xl md:text-5xl sm:mt-16 mt-20 font-bebas text-myorange-600 mb-12 text-center">
           Our Services
         </h1>
 
         <motion.section
-          className="mb-16 flex flex-col md:flex-row shadow-xl items-center"
+          className="mb-16 flex flex-col md:flex-row shadow-xl  items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}

@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
 
           {/* Right side: Contact form */}
-          {/* <div>
+          <div>
             <h2 className="text-2xl font-redHat mb-6">Contact Us</h2>
             <form className="space-y-6">
               <div>
@@ -129,7 +129,8 @@ const Footer = () => {
                 Send Message
               </button>
             </form>
-          </div> */}
+          </div>
+
         </div>
       </div>
 
@@ -137,14 +138,14 @@ const Footer = () => {
       <div className="text-center text-sm text-gray-300 mt-12">
         <p>
           Site developed, and maintained by{" "}
-          <a
-            href="https://nafisfaiyaz007.github.io/Nafis-Faiyaz-portfolio/"
+          <Link 
+            to="https://nafisfaiyaz007.github.io/Nafis-Faiyaz-portfolio/"
             className="text-white hover:text-blue-700 transition duration-300"
             target="_blank"
             rel="noopener noreferrer"
           >
             Chowdhury Nafis Faiyaz
-          </a>
+          </Link>
         </p>
       </div>
     </section>

@@ -9,6 +9,9 @@ import banner5 from "../images/banner5.jpg";
 import banner6 from "../images/banner6.jpg";
 import banner7 from "../images/banner7.jpg";
 import banner8 from "../images/banner8.jpg";
+
+import { Link } from "react-router-dom";
+
 // import companyLogo from "../images/logo.png"; // Replace with your actual company logo path
 
 const HeroSection = () => {
@@ -36,9 +39,12 @@ const HeroSection = () => {
             Innovating solutions to feed the world while preserving our planet's
             resources.
           </p>
-          {/* <button className="bg-myorange-500 hover:bg-orange-700 rounded-lg mt-4 text-gray-100 font-bold py-3 px-6 inline-block transition duration-300">
-            Donate
-          </button> */}
+          <a
+            href="/Donate"
+            className="bg-myorange-600 items-center hover:bg-mywhite-200 hover:text-gray-800 hover:border-myorange-600 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300"
+          >
+            Donate for Emergency Response
+          </a>
         </div>
       </div>
 
@@ -60,9 +66,14 @@ const HeroSection = () => {
             Innovating solutions to feed the world while preserving our planet's
             resources.
           </p>
-          {/* <button className="bg-myorange-600 items-center hover:bg-orange-700 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300">
-            Donate
-          </button> */}
+          <Link to="/Donate">
+            <button
+             
+              className="bg-myorange-600 items-center hover:bg-mywhite-200 hover:text-gray-800 hover:border-myorange-600 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300"
+            >
+              Donate for Emergency Response
+            </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const InnovatorSection = () => {
 
   return (
     <section className="py-16 px-4 bg-mywhite-500" ref={ref}>
-      <div className="container mx-auto">
+      <div className="container font-redHat mx-auto">
         <h3 className="text-3xl md:text-5xl font-bebas text-myorange-600 mb-6 text-center">
           <strong>Innovator's Note</strong>
         </h3>
@@ -51,7 +51,7 @@ const InnovatorSection = () => {
               escape from extreme poverty & hunger; climate change and recently
               Covid19 pandemic generated shocks.
             </p>
-            <h3 className="">History of evolution of the innovation:</h3>
+            <h3 className="text-base md:text-xl pb-2">History of evolution of the innovation:</h3>
             <p className="text-base md:text-lg text-gray-700 mb-8 text-justify">
               Over a decade ago, the noble journey has been initiated with the
               objective “Something is better than nothing”, fuelled by the idea

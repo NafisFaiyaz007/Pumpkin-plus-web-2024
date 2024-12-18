@@ -20,7 +20,7 @@ const AboutExt = () => {
   const images = [about1, about2,about3,about4,about5,about6];
   
   return (
-    <section className=" bg-mywhite-100  pt-36 px-8 md:px-16 lg:px-32 ">
+    <section className=" bg-mywhite-500  pt-36 px-8 md:px-16 lg:px-32 ">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -31,13 +31,13 @@ const AboutExt = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-mywhite-100 rounded-xl mb-12"
+          className="bg-mywhite-500 rounded-xl mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bebas text-myorange-600 my-8 sm:py-10 text-center">
             Our Vision and Mission
           </h2>
           <div className="grid grid-cols-1 text-justify md:grid-cols-3 gap-8">
-            <div className=" bg-mywhite-500 border-2 border-mywhite-500 p-6 rounded-xl shadow-xl flex flex-col">
+            <div className=" bg-white border-3 border-gray-800 p-6 rounded-xl shadow-xl flex flex-col">
               <h3 className="text-2xl font-medium text-center text-gray-900 mb-4">
                 Vision
               </h3>
@@ -54,7 +54,7 @@ const AboutExt = () => {
                 className="w-full h-auto object-cover rounded-lg shadow-md"
               />
             </div>
-            <div className=" bg-mywhite-500 p-6 border-2 border-mywhite-500 rounded-xl shadow-xl flex flex-col">
+            <div className=" bg-white border-3 border-gray-800 p-6 rounded-xl shadow-xl flex flex-col">
               <h3 className="text-2xl font-medium text-center text-gray-900 mb-4">
                 Mission
               </h3>
@@ -71,7 +71,7 @@ const AboutExt = () => {
                 className="w-full h-auto object-cover rounded-lg shadow-md"
               />
             </div>
-            <div className=" bg-mywhite-500 p-6 border-2 border-mywhite-500 rounded-xl shadow-xl flex flex-col">
+            <div className=" bg-white border-3 border-gray-800 p-6 rounded-xl shadow-xl flex flex-col">
               <h3 className="text-2xl font-medium text-center text-gray-900 mb-4">
                 Values
               </h3>
@@ -101,7 +101,7 @@ const AboutExt = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-mywhite-100 py-3 sm:p-8 rounded-xl mb-12"
+          className="bg-white border-3 border-gray-800 py-3 sm:p-8 rounded-xl mb-12"
         >
           <h1 className="text-4xl md:text-5xl font-bebas text-myorange-600 text-center sm:mb-12">
             Problem Statement
@@ -155,14 +155,14 @@ const AboutExt = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-mywhite-100 py-6 sm:p-12 rounded-xl mb-12 shadow-lg"
+          className="bg-mywhite-500 py-6 sm:p-12 rounded-xl mb-12"
         >
           <h1 className="text-4xl md:text-5xl font-bebas text-myorange-600 text-center sm:mb-12">
             Why is it Game-Changing?
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-8 mb-12">
             {/* Card 1 */}
-            <div className="relative group p-6 bg-mywhite-500 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
+            <div className="relative group p-6 bg-white border-3 border-gray-800 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
               <div className="flex justify-center mb-4">
                 <span className="text-myorange-600 text-5xl group-hover:text-myorange-700">
                   🌱
@@ -179,7 +179,7 @@ const AboutExt = () => {
               </p>
             </div>
             {/* Card 2 */}
-            <div className="relative group p-6 bg-mywhite-500 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
+            <div className="relative group p-6 bg-white border-3 border-gray-800 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
               <div className="flex justify-center mb-4">
                 <span className="text-myorange-600 text-5xl group-hover:text-myorange-700">
                   🌍
@@ -195,7 +195,7 @@ const AboutExt = () => {
               </p>
             </div>
             {/* Card 3 */}
-            <div className="relative group p-6 bg-mywhite-500 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
+            <div className="relative group p-6 bg-white border-3 border-gray-800 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
               <div className="flex justify-center mb-4">
                 <span className="text-myorange-600 text-5xl group-hover:text-myorange-700">
                   🥕
@@ -211,7 +211,7 @@ const AboutExt = () => {
               </p>
             </div>
             {/* Card 4 */}
-            <div className="relative group p-6 bg-mywhite-500 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
+            <div className="relative group p-6 bg-white border-3 border-gray-800 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
               <div className="flex justify-center mb-4">
                 <span className="text-myorange-600 text-5xl group-hover:text-myorange-700">
                   📈
@@ -227,7 +227,7 @@ const AboutExt = () => {
               </p>
             </div>
             {/* Card 5 */}
-            <div className="relative group p-6 bg-mywhite-500 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
+            <div className="relative group p-6 bg-white border-3 border-gray-800 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
               <div className="flex justify-center mb-4">
                 <span className="text-myorange-600 text-5xl group-hover:text-myorange-700">
                   🤝
@@ -243,7 +243,7 @@ const AboutExt = () => {
               </p>
             </div>
             {/* card 6 */}
-            <div className="relative group p-6 bg-mywhite-500 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
+            <div className="relative group p-6 bg-white border-3 border-gray-800 rounded-2xl shadow-lg transform transition hover:scale-105 hover:shadow-xl hover:bg-myorange-50">
               <div className="flex justify-center mb-4">
                 <span className="text-myorange-600 text-5xl group-hover:text-myorange-700">
                   🌾
@@ -265,14 +265,14 @@ const AboutExt = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-mywhite-100 py-12 px-6 sm:px-12 rounded-xl mb-12 shadow-lg"
+          className="bg-mywhite-500 py-12 px-6 sm:px-12 rounded-xl mb-12"
         >
           <h1 className="text-4xl md:text-5xl font-bebas text-myorange-600 text-center sm:mb-12">
             business model
           </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Infographic Section */}
-            <div className="flex justify-center">
+            <div className="flex bg-white border-3 border-gray-800 rounded-xl justify-center">
               <img
                 src={infographic}
                 alt="Climate Adaptation Infographic"
@@ -283,7 +283,7 @@ const AboutExt = () => {
             {/* Text Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
               {/* Card 1 - Step One */}
-              <div className="p-6 bg-mywhite-500 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-xl flex justify-center">
+              <div className="p-6 bg-white border-3 border-gray-800 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-xl flex justify-center">
                 <div className="text-center">
                   <h2 className="text-lg font-bold text-myorange-600 mb-2">
                     Step One: Securing Land & Inputs
@@ -298,7 +298,7 @@ const AboutExt = () => {
               </div>
 
               {/* Card 2 - Step Two */}
-              <div className="p-6 bg-mywhite-500 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-xl flex justify-center">
+              <div className="p-6 bg-white border-3 border-gray-800 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-xl flex justify-center">
                 <div className="text-center">
                   <h2 className="text-lg font-bold text-myorange-600 mb-2">
                     Step Two: Economic Empowerment
@@ -313,7 +313,7 @@ const AboutExt = () => {
               </div>
 
               {/* Card 3 - Step Three */}
-              <div className="p-6 bg-mywhite-500 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-xl flex justify-center lg:col-span-2">
+              <div className="p-6 bg-white border-3 border-gray-800 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-xl flex justify-center lg:col-span-2">
                 <div className="text-center">
                   <h2 className="text-lg font-bold text-myorange-600 mb-2">
                     Step Three: Sustainable Market Access

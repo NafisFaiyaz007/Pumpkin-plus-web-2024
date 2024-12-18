@@ -43,12 +43,12 @@ const Navbar = () => {
     >
       <div className="container max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="hidden md:flex space-x-4 font-bold items-center">
-          {/* <a
-            href="#donate"
-            className="bg-myorange-600 hover:bg-orange-700 text-gray-100 font-bold py-2 px-4 rounded transition duration-300"
+          <Link
+            to="/Donate"
+            className="bg-myorange-600  hover:bg-mywhite-200 hover:text-gray-800 hover:border-myorange-600 text-gray-100 font-bold py-2 px-4 rounded transition duration-300"
           >
             Donate
-          </a> */}
+          </Link>
           <div className="flex items-center space-x-4">
             <Link to="/" className={getLinkClass("/")}>
               Home
@@ -61,12 +61,12 @@ const Navbar = () => {
             <Link to="/Services" className={getLinkClass("/Services")}>
               Services
             </Link>
-            <span className="h-6 border-r border-gray-300"></span>
-            {/* <Link to="#contact" className={getLinkClass("#contact")}>
-              Contact
-            </Link>
-            <span className="h-6 border-r border-gray-300"></span>
-            <Link to="#charity" className={getLinkClass("#charity")}>
+            {/* <span className="h-6 border-r border-gray-300"></span>
+            <Link to="#contact" className={getLinkClass("#contact")}>
+              Donate
+            </Link> */}
+            {/* <span className="h-6 border-r border-gray-300"></span> */}
+            {/* <Link to="#charity" className={getLinkClass("#charity")}>
               Charity
             </Link>
             <span className="h-6 border-r border-gray-300"></span>
@@ -114,7 +114,10 @@ const Navbar = () => {
           >
             Services
           </Link>
-          <span className="w-6 border-b border-gray-300"></span>
+          <span className="h-6 border-r border-gray-300"></span>
+          <Link to="/Donate" className={getLinkClass("/Donate")}>
+            Donate
+          </Link>
           {/* <Link
             to="#contact"
             className={getLinkClass("#contact")}

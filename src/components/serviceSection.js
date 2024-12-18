@@ -16,9 +16,9 @@ import { Link } from "react-router-dom";
 const services = [
   {
     id: 1,
-    title: "Develop and Promote Agri-Business Systems",
+    title: "Develop and Promote Agribusiness model",
     description:
-      "Through technology promotion (Transitional land i.e. charlands and Riverbeds) for the erosion affected displaced extreme poor communities in Bangladesh and beyond",
+      "Implemented integrated agribusiness development through capacity building and demonstration, creating employment opportunities for displaced, erosion-affected, and extreme poor communities.",
     icon: faSeedling,
   },
   {
@@ -51,9 +51,9 @@ const services = [
   },
   {
     id: 6,
-    title: "Integrated Agribusiness model for women and youth",
+    title: "Humanitarian response",
     description:
-      "Initiated integrated agri-business development through capacity building and demonstration for youth employment",
+      "Emergency response/s for Humanitarian causes like catastrophic flooding, cold waves and any other events are the part of our cross-cutting activities as and when necessary basis.",
     icon: faBook,
   },
 ];
@@ -100,7 +100,7 @@ const ServicesSection = () => {
           ))}
         </div>
         <div className="flex justify-center">
-          <Link to="/services">
+          <Link to="/Services">
             <button className="bg-mywhite-200 border-2 border-myorange-600 hover:bg-myorange-600 text-gray-900 hover:text-gray-100 font-medium py-2 px-4 rounded-lg">
               Learn more
             </button>

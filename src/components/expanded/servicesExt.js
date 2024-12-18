@@ -4,6 +4,9 @@ import agribusiness from "../../images/agribusiness.jpg";
 import consultancy from "../../images/consultancy and advisory .jpg";
 import innovations from "../../images/R&D innovations.jpg";
 import networking from "../../images/networking.jpeg"
+import blanketDist from "../../images/blanket distribution 2.jpg"
+
+import { Link } from "react-router-dom";
 const Services = () => {
   const sectionVariants = {
     hidden: { opacity: 0, y: 40 },
@@ -22,9 +25,8 @@ const Services = () => {
         <h1 className="text-4xl md:text-5xl sm:mt-16 mt-20 font-bebas text-myorange-600 mb-12 text-center">
           Our Services
         </h1>
-
         <motion.section
-          className="mb-16 flex flex-col md:flex-row shadow-xl  items-center"
+          className="mb-16 flex flex-col md:flex-row-reverse shadow-xl bg-mywhite-200 rounded-lg items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -32,6 +34,47 @@ const Services = () => {
           transition={sectionTransition}
         >
           <div className="md:w-1/2 p-6">
+            <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
+              Humanitarian Response amongst extreme poor and need-based
+              communities
+            </h2>
+            <p className="text-lg text-gray-700 font-redHat leading-relaxed mb-6 text-justify">
+              Emergency response for humanitarian causes, including catastrophic
+              flooding and cold waves, is a core part of our cross-cutting
+              activities. We collaborate with private sectors, NGOs, and family
+              contributions to address these crises. Since 2021, we've
+              successfully distributed 400 blankets with Shahjalal Bank’s
+              support in Gangadhara and Kaunia, Rangpur. In 2022 and 2023, 365
+              blankets were provided at Pumpkin Plus HQ in Dinajpur through
+              family funding. In 2024, we distributed pumpkin seeds to over 350
+              farmers, mostly women, in Rangpur and Kurigram. We welcome small
+              donations to support emergency responses and humanitarian causes.
+              Please join us in making a difference.
+            </p>
+          <Link to="/Donate">
+            <button  className="bg-myorange-600 items-center hover:bg-mywhite-200 hover:text-gray-800 hover:border-myorange-600 rounded-lg border-2 border-slate-100 text-white font-bold py-3 px-6 inline-block transition duration-300"         >
+              Donate for Emergency Response
+           </button>
+           </Link>
+          </div>
+          <div className="md:w-1/2 p-6">
+            <img
+              src={blanketDist}
+              alt="Collaboration"
+              className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
+            />
+          </div>
+        </motion.section>
+
+        <motion.section
+          className="mb-16 flex flex-col md:flex-row shadow-xl bg-mywhite-200 rounded-lg items-center"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={sectionVariants}
+          transition={sectionTransition}
+        >
+          <div className="md:w-1/2 p-6 ">
             <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-6">
               Develop and Promote Agri Business System
             </h2>
@@ -48,8 +91,6 @@ const Services = () => {
           </div>
           <div className="md:w-1/2 p-6">
             <img
-        
-        
               src={agribusiness}
               alt="Community Development"
               className="w-full h-auto rounded-lg shadow-lg max-w-sm md:max-w-full"
@@ -58,7 +99,7 @@ const Services = () => {
         </motion.section>
 
         <motion.section
-          className="mb-16 flex flex-col md:flex-row-reverse shadow-xl items-center"
+          className="mb-16 flex flex-col md:flex-row-reverse shadow-xl bg-mywhite-200 rounded-lg items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -98,7 +139,7 @@ const Services = () => {
         </motion.section>
 
         <motion.section
-          className="mb-16 flex flex-col md:flex-row shadow-xl items-center"
+          className="mb-16 flex flex-col md:flex-row shadow-xl bg-mywhite-200 rounded-lg items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -133,7 +174,7 @@ const Services = () => {
         </motion.section>
 
         <motion.section
-          className="mb-16 flex flex-col md:flex-row-reverse shadow-xl items-center"
+          className="mb-16 flex flex-col md:flex-row-reverse shadow-xl bg-mywhite-200 rounded-lg items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}

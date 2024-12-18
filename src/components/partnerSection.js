@@ -11,7 +11,7 @@ import partner7 from "../images/ukaid logo.jpg";
 
 const Partners = () => {
   return (
-    <section className="bg-mywhite-500 py-16 px-8 md:px-16 lg:px-32">
+    <section className="bg-mywhite-200 py-16 px-8 md:px-16 lg:px-32">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bebas text-myorange-600 mb-8">
           Our partners

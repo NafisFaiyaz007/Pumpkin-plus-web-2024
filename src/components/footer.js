@@ -6,6 +6,7 @@ import {
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 import companyLogo from "../images/logo.png"; // Adjust the path to your logo image
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -30,12 +31,14 @@ const Footer = () => {
               Email: nichowdhury1966@gmail.com (Innovator and founder)
             </p>
             <p className="mb-6">Email: pumpkinplus17@gmail.com</p>
-            <a
-              href="/"
-              className="bg-white text-myorange-500 hover:bg-myorange-400 hover:text-white rounded-lg border-2 border-white font-bold py-2 px-6 inline-block mb-6 transition duration-300"
-            >
-              Donate Now
-            </a>
+
+            <Link to="/Donate">
+              <button
+                className="bg-white text-myorange-500 hover:bg-myorange-400 hover:text-white rounded-lg border-2 border-white font-bold py-2 px-6 inline-block mb-6 transition duration-300"
+              >
+                Donate Now
+              </button>
+            </Link>
             <div className="flex justify-center md:justify-start space-x-6">
               <a
                 href="https://www.linkedin.com/company/pumpkin-plus"
@@ -74,7 +77,7 @@ const Footer = () => {
           </div>
 
           {/* Right side: Contact form */}
-          <div>
+          {/* <div>
             <h2 className="text-2xl font-redHat mb-6">Contact Us</h2>
             <form className="space-y-6">
               <div>
@@ -126,7 +129,7 @@ const Footer = () => {
                 Send Message
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -136,7 +139,7 @@ const Footer = () => {
           Site developed, and maintained by{" "}
           <a
             href="https://nafisfaiyaz007.github.io/Nafis-Faiyaz-portfolio/"
-            className="text-white hover:text-myorange-400 transition duration-300"
+            className="text-white hover:text-blue-700 transition duration-300"
             target="_blank"
             rel="noopener noreferrer"
           >

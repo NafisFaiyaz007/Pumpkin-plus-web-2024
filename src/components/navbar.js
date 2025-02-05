@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import companyLogo from "../images/logo.png";
 
 const Navbar = () => {
+   const companyLogo =
+     "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736876/Pumpkin%20Plus%20Website%20Images/logo_fte0nn.png";
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();

@@ -1,15 +1,24 @@
 import React from "react";
-import partner1 from "../images/usaid-logo.png"; // Adjust the paths as necessary
-import partner3 from "../images/logo_swisscontact.svg"
-import partner4 from "../images/bari-logo.png";
-import partner5 from "../images/we4f logo.png";
-import partner6 from "../images/biglottery logo.png";
-import partner7 from "../images/ukaid logo.jpg";
+
 
 
 // Add more imports as needed
 
 const Partners = () => {
+
+  const partner1 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736881/Pumpkin%20Plus%20Website%20Images/usaid-logo_i5m3e1.png";
+  const partner3 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736880/Pumpkin%20Plus%20Website%20Images/swisscontact_logo_fupeev.png";
+  const partner4 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736869/Pumpkin%20Plus%20Website%20Images/bari-logo_t0ykzm.png";
+
+  const partner5 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736883/Pumpkin%20Plus%20Website%20Images/we4f_logo_zdlslg.png";
+  const partner6 = "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736872/Pumpkin%20Plus%20Website%20Images/biglottery_logo_fctvwf.png";
+  const partner7 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736881/Pumpkin%20Plus%20Website%20Images/ukaid_logo_akc6tj.jpg";
+
   return (
     <section className="bg-mywhite-200 py-16 px-8 md:px-16 lg:px-32">
       <div className="container mx-auto text-center">

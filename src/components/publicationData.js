@@ -1,7 +1,12 @@
-import foodplanetprize from "../images/food planet prize.jpg"
-import stAndrewsPrize from "../images/standrews prize.jpg";
-import faoAwardCeremony from "../images/FAO award.png";
-import stevieAwards from "../images/asia stevie award.jpg";
+
+const foodplanetprize =
+  "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736871/Pumpkin%20Plus%20Website%20Images/food_planet_prize_j6c0ep.jpg";
+  const stAndrewsPrize =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736880/Pumpkin%20Plus%20Website%20Images/standrews_prize_encjxl.jpg";
+    const faoAwardCeremony =
+      "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736873/Pumpkin%20Plus%20Website%20Images/FAO_award_fa3nko.png";
+      const stevieAwards =
+        "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736871/Pumpkin%20Plus%20Website%20Images/asia_stevie_award_a9eiz1.jpg";
 const data = {
   publications: [
     {

@@ -1,20 +1,38 @@
 import React from "react";
 import Slideshow from "../components/slideshow";
 
-import banner1 from "../images/banner1.jpg";
-import banner2 from "../images/banner2.jpg";
-import banner3 from "../images/banner3.jpg";
-import banner4 from "../images/banner4.jpg";
-import banner5 from "../images/banner5.jpg";
-import banner6 from "../images/banner6.jpg";
-import banner7 from "../images/banner7.jpg";
-import banner8 from "../images/banner8.jpg";
+// import banner1 from "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736873/Pumpkin%20Plus%20Website%20Images/banner1_myck7g.jpg";
+// import banner2 from "../images/banner2.jpg";
+// import banner3 from "../images/banner3.jpg";
+// import banner4 from "../images/banner4.jpg";
+// import banner5 from "../images/banner5.jpg";
+// import banner6 from "../images/banner6.jpg";
+// import banner7 from "../images/banner7.jpg";
+// import banner8 from "../images/banner8.jpg";
 
 import { Link } from "react-router-dom";
 
 // import companyLogo from "../images/logo.png"; // Replace with your actual company logo path
 
 const HeroSection = () => {
+  const banner1 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736873/Pumpkin%20Plus%20Website%20Images/banner1_myck7g.jpg";
+  const banner2 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736869/Pumpkin%20Plus%20Website%20Images/banner2_f7rvun.jpg";
+  const banner3 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736870/Pumpkin%20Plus%20Website%20Images/banner3_xhdf7w.jpg";
+  const banner4 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736871/Pumpkin%20Plus%20Website%20Images/banner4_cimze9.jpg";
+  const banner5 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736872/Pumpkin%20Plus%20Website%20Images/banner5_jcfqlo.jpg";
+  const banner6 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736875/Pumpkin%20Plus%20Website%20Images/banner6_shyjpj.jpg";
+  const banner7 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736873/Pumpkin%20Plus%20Website%20Images/banner7_quezwd.jpg";
+  const banner8 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736872/Pumpkin%20Plus%20Website%20Images/banner8_lypfmx.jpg";
+
+
   const images = [banner1,banner2,banner3,banner4,banner5,banner6,banner7,banner8];
 
   return (

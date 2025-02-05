@@ -1,11 +1,17 @@
 import React from "react";
-import blanketDist from "../../images/blanket distribution.jpg";
-import seedDist from "../../images/Seed distributtionjpg.jpg";
-import iftarDist from "../../images/iftaar.jpg";
 
-import infographic from "../../images/humanitarian info graphic.svg";
 const Donate = () => {
-  const donationActivities = [
+
+  const blanketDist =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736871/Pumpkin%20Plus%20Website%20Images/blanket_distribution_pg3wp5.jpg";
+  const seedDist =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736879/Pumpkin%20Plus%20Website%20Images/Seed_distributtionjpg_hqjzhx.jpg";
+  const iftarDist =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736874/Pumpkin%20Plus%20Website%20Images/iftaar_ggruvq.jpg";
+  const infographic =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736872/Pumpkin%20Plus%20Website%20Images/humanitarian_info_graphic_pff5oj.svg";
+
+    const donationActivities = [
     {
       title: "Distributing Seeds to Flood Victims",
       description:

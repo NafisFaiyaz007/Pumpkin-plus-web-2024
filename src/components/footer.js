@@ -5,10 +5,11 @@ import {
   faYoutube,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-import companyLogo from "../images/logo.png"; // Adjust the path to your logo image
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const companyLogo =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736876/Pumpkin%20Plus%20Website%20Images/logo_fte0nn.png";
   return (
     <section className="relative py-16 px-8 md:px-20 bg-gradient-to-b from-myorange-500 via-myorange-600 to-orange-700 text-white font-open-sans">
       {/* Blur overlay */}

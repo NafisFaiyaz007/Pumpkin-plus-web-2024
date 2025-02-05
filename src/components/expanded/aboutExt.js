@@ -3,20 +3,29 @@ import { motion } from "framer-motion";
 import Slideshow from "../slideshow";
 
 
-import about1 from "../../images/about1.jpg"; // Add more images if necessary
-import about2 from "../../images/about2.jpg"; // Add more images if necessary
-import about3 from "../../images/about3.jpg"; // Add more images if necessary
-import about4 from "../../images/about4.jpg"; // Add more images if necessary
-import about5 from "../../images/about5.jpg"; // Add more images if necessary
-import about6 from "../../images/about6.jpg"; // Add more images if necessary
-
-import values from "../../images/values.jpg"; // Adjust path as necessary
-import vision from "../../images/vision.jpg"
-import mission from "../../images/mission.jpg"; // Adjust path as necessary
-import infographic from "../../images/info graphic 3 step model.svg"
-
-
 const AboutExt = () => {
+  const about1 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736867/Pumpkin%20Plus%20Website%20Images/about_1_x5dgyk.jpg";
+  const about2 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736866/Pumpkin%20Plus%20Website%20Images/about2_n2htbv.jpg";
+  const about3 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736866/Pumpkin%20Plus%20Website%20Images/about3_tfsul0.jpg";
+  const about4 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736866/Pumpkin%20Plus%20Website%20Images/about4_olenwb.jpg";
+  const about5 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736871/Pumpkin%20Plus%20Website%20Images/about5_fzfrnq.jpg";
+  const about6 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736871/Pumpkin%20Plus%20Website%20Images/about6_qjjru7.jpg";
+
+  const values =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736882/Pumpkin%20Plus%20Website%20Images/values_aaxiok.jpg";
+  const vision =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736883/Pumpkin%20Plus%20Website%20Images/vision_e3elo9.jpg";
+  const mission =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736877/Pumpkin%20Plus%20Website%20Images/mission_h2clxm.jpg";
+  const infographic =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736874/Pumpkin%20Plus%20Website%20Images/info_graphic_3_step_model_dniwrn.svg";
+
   const images = [about1, about2,about3,about4,about5,about6];
   
   return (

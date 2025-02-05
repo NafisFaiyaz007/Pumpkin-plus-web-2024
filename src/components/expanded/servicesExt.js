@@ -1,10 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import agribusiness from "../../images/agribusiness.jpg";
-import consultancy from "../../images/consultancy and advisory .jpg";
-import innovations from "../../images/R&D innovations.jpg";
-import networking from "../../images/networking.jpeg"
-import blanketDist from "../../images/blanket distribution 2.jpg"
+
 
 import { Link } from "react-router-dom";
 const Services = () => {
@@ -18,6 +14,18 @@ const Services = () => {
     type: "spring",
     stiffness: 50,
   };
+
+  const agribusiness =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736870/Pumpkin%20Plus%20Website%20Images/agribusiness_zfu3qn.jpg";
+  const consultancy =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736870/Pumpkin%20Plus%20Website%20Images/consultancy_and_advisory_w4g0d0.jpg";
+  const innovations =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736879/Pumpkin%20Plus%20Website%20Images/R_D_innovations_m7czmy.jpg";
+  const networking =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736878/Pumpkin%20Plus%20Website%20Images/networking_hctmje.jpg";
+  const blanketDist =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736873/Pumpkin%20Plus%20Website%20Images/blanket_distribution_2_m6e0of.jpg";
+
 
   return (
     <div className="md:px-20 mywhite-100 min-h-screen bg-mywhite-500 ">

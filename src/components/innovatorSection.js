@@ -1,16 +1,23 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import image1 from "../images/NAZMUL 1.jpg";
-import innovator1 from "../images/innovator 1.jpg";
-import innovator2 from "../images/Innovator 2.jpg";
-import innovator3 from "../images/innovator 3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+
+
 const InnovatorSection = () => {
+   const image1 =
+     "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736877/Pumpkin%20Plus%20Website%20Images/NAZMUL_1_n304pg.jpg";
+  const innovator1 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736876/Pumpkin%20Plus%20Website%20Images/innovator_1_pasarf.jpg";
+  const innovator2 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736876/Pumpkin%20Plus%20Website%20Images/Innovator_2_ojcf27.jpg";
+  const innovator3 =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736877/Pumpkin%20Plus%20Website%20Images/innovator_3_etkz9r.jpg";
+
   const { ref, inView } = useInView({
     triggerOnce: false,
     threshold: 0.2,

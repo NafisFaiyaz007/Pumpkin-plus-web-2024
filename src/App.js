@@ -1,25 +1,44 @@
-// import logo from './logo.svg';
-// import './App.css';
+// src/App.js
+import React, { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+import Home from "./pages/Homepage";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Donate from "./pages/Donate";
 
-// export default App;
+import { initGA, logPageView } from "./ga";
+
+const AppRoutes = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    initGA();
+  }, []);
+
+  useEffect(() => {
+    logPageView(location.pathname + location.search);
+  }, [location]);
+
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/About" element={<About />} />
+      <Route path="/Services" element={<Services />} />
+      <Route path="/Donate" element={<Donate />} />
+    </Routes>
+  );
+};
+
+const App = () => (
+  <Router>
+    <AppRoutes />
+  </Router>
+);
+
+export default App;

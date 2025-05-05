@@ -14,31 +14,32 @@ import Donate from "./pages/Donate";
 
 import { initGA, logPageView } from "./ga";
 
-const AppRoutes = () => {
+const GAListener = () => {
   const location = useLocation();
-
-  useEffect(() => {
-    initGA();
-  }, []);
 
   useEffect(() => {
     logPageView(location.pathname + location.search);
   }, [location]);
 
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/Services" element={<Services />} />
-      <Route path="/Donate" element={<Donate />} />
-    </Routes>
-  );
+  return null;
 };
 
-const App = () => (
-  <Router>
-    <AppRoutes />
-  </Router>
-);
+const App = () => {
+  useEffect(() => {
+    initGA(); // Initialize GA once on app load
+  }, []);
+
+  return (
+    <Router>
+      <GAListener />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Donate" element={<Donate />} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;

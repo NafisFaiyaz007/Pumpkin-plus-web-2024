@@ -4,6 +4,9 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/pumpkinp/public_html/
- - /bin/cp -R build/* $DEPLOYPATH
- - /bin/cp -R public/* $DEPLOYPATH
- - /bin/cp .htaccess $DEPLOYPATH 2>/dev/null || true
+ - export REPOPATH=/home/pumpkinp/repositories/pumpkin-plus-website
+ - /bin/cp -R ${REPOPATH}/build/* $DEPLOYPATH
+ - /bin/cp -R ${REPOPATH}/public/* $DEPLOYPATH
+ - /bin/cp ${REPOPATH}/.htaccess $DEPLOYPATH 2>/dev/null || true
+branches:
+ - main

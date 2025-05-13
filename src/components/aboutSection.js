@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import { aboutSchema } from "./schema/AboutSchema";
 
 
 const AboutSection = () => {
@@ -22,12 +24,27 @@ const AboutSection = () => {
   }, [controls, inView]);
 
   return (
-    <motion.section
+    
+    
+    <motion.section>
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(aboutSchema)}
+        </script>
+        <meta property="og:title" content="Who is Pumpkin Plus? | Agricultural Innovation" />
+        <meta property="og:description" content="PUMPKIN PLUS is a new generation agribusiness company pioneering sandbar cropping and agricultural innovation in Bangladesh. Learn about our mission and impact." />
+        <meta property="og:image" content="https://res.cloudinary.com/dq8h4hhir/image/upload/v1738736867/Pumpkin%20Plus%20Website%20Images/about_1_x5dgyk.jpg" />
+        <meta property="og:url" content="https://www.pumpkinplus.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Pumpkin Plus Bangladesh" />
+      </Helmet>
       ref={ref}
+      role="region"
+      aria-label="About Pumpkin Plus"
       className="bg-blur py-6 md:py-12 mx-4 md:mx-16 my-4 md:my-6 bg-white"
       initial={{ opacity: 0.5, y: 50 }}
       animate={controls}
-    >
+    
       <div className="container shadow-2xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center overflow-hidden">
           {/* Left side: Text content */}
@@ -80,26 +97,16 @@ const AboutSection = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.9, delay: 0.2 }}
           >
-            <div className="w-full pb-9/16 relative">
+            <div className="w-full aspect-video relative">
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
                 src="https://www.youtube.com/embed/7ZN92tAmdFg?si=fuj0lfmuNgd3vyUd"
-                title="YouTube video player"
-                frameborder="0"
+                title="Introduction to Pumpkin Plus and Sandbar Cropping Innovation"
+                loading="lazy"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/7ZN92tAmdFg?si=fuj0lfmuNgd3vyUd"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
               ></iframe>
             </div>
           </motion.div>

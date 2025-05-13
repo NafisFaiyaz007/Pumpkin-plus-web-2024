@@ -11,6 +11,7 @@ import Home from "./pages/Homepage";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Donate from "./pages/Donate";
+import HttpsRedirect from './components/HttpsRedirect';
 
 import { initGA, logPageView } from "./ga";
 
@@ -31,6 +32,7 @@ const App = () => {
 
   return (
     <Router>
+      <HttpsRedirect />
       <GAListener />
       <Routes>
         <Route path="/" element={<Home />} />

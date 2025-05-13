@@ -12,9 +12,11 @@
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.2.13",
+    "helmet": "^8.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-ga4": "^2.1.0",
+    "react-helmet": "^6.1.0",
     "react-icons": "^5.4.0",
     "react-intersection-observer": "^9.10.3",
     "react-router-dom": "^6.24.1",
@@ -24,7 +26,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set HTTPS=false && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
